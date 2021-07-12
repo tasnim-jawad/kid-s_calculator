@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>java script</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="shortcut icon" href="img/Logo1.jpg">
+        
+            <meta charset="UTF-8">
+            <meta name="robots" content="index, follow">
+        
+            <meta http-equiv="cache-control" content="no-cache">
+            <meta http-equiv="expires" content="5000000">
+            <!-- <meta http-equiv="refresh" content="5"> -->
+        
+            <meta name="keywords" content="byinghouse,textile,texsource">
+            <meta name="description" content="you learn every things about html">
+            <meta name="author" content="amanullah">
+            <meta name="copyrigth" content="www.mysite.com">
+            <meta name="revisit" content="5 days">
+        
+            <meta property="og:title" content="html learn" />
+            <meta property="og:site_name" content="adfas" />
+            <meta property="og:description" content="" />
+            <meta property="og:type" content="article" />
+            <meta property="og:url" content="http://" />
+            <meta property="og:image" content="http://" />
+            <meta property="og:image:width" content="600" />
+            <meta property="og:image:height" content="315" />
+        
+            <meta name="twitter:title" content="">
+            <meta name="twitter:description" content="">
+            <meta name="twitter:image" content="http://">
+            <meta name="twitter:card" content="summary_large_image">
+            <link rel="stylesheet" href="css/default.css">
+            <link rel="stylesheet" href="css/style.css">
+
+            
+    </head>
+    <body>
+        
+        <section id="calculator">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>kid's calculator</h1>
+                    </div>
+                </div>
+                <form action="#" name="data">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-12">
+                                <div class="input">
+                                        <label for="">1st number</label>
+                                        <input class="num" type="number" maxlength="10" name="num1"> 
+                                        <label for="">2nd number</label>
+                                        <input class="num" type="number" maxlength="10" name="num2"> 
+                                </div>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col-12">
+                                    <ul class="btns">
+                                        <li><button type="button" onclick="sum(+data.num1.value , +data.num2.value)">+</button></li>
+                                        <li><button type="button" onclick="sub(+data.num1.value , +data.num2.value)">-</button></li>
+                                        <li><button type="button" onclick="mult(+data.num1.value , +data.num2.value)">*</button></li>
+                                        <li><button type="button" onclick="divi(+data.num1.value , +data.num2.value)">/</button></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div >
+                                        <button class="btns2" type="button" onclick="calculats(+data.num1.value , +data.num2.value)">all in one</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="result">
+                                <label for="">result</label>
+                                <!-- <textarea class="num" id="myList" name="" cols="30" rows="15"></textarea> -->
+                                <ul class="ans" id="myList"></ul>
+                        
+                            </div> 
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+
+
+
+
+
+        <script src="js/custom.js"></script>
+        <script src="js/class12.js"></script>
+        <script src="js/calculator.js"></script>
+    </body>
+</html>

@@ -1,0 +1,89 @@
+body{
+    
+    background-image: url(..//img/body.png);
+    background-size: cover;
+}
+h1{
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+    font-family: Impact;
+    margin-top: 15px;
+    margin-bottom: 24px;
+}
+.row{
+    box-sizing: border-box;
+}
+.input{
+    border: 1px solid peachpuff;
+    padding: 20px 10px;
+    border-radius: 25px;
+    /* width: 100%; */
+    font-family: fantasy;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+.num{
+    padding: 10px 10px;
+    border-radius: 20px;
+    background-color: peachpuff;
+}
+.container{
+    background-image: url('..//img/container2.jpg');
+    width: 700px;
+    border-radius: 25px;
+    margin-top: 50px;
+
+}
+
+label{
+    font-size: 20px;
+    font-family: monospace;
+}
+.btns{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 95%;
+    padding: 10px 11px;
+}
+
+button{
+    border: 1px solid rgb(240, 227, 227);
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color:peachpuff;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px peachpuff ;
+}
+button:active{
+    box-shadow: -2px -2px 2px rgb(114, 98, 85) ;
+}
+
+.btns2{
+    margin-left: 4px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.result{
+    border: 1px solid peachpuff;
+    padding: 20px 10px;
+    border-radius: 25px;
+    /* width: 100%; */
+    font-family: fantasy;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+.ans{
+    padding: 10px 10px;
+    border-radius: 20px;
+    background-color: peachpuff;
+    height: 200px;
+    overflow: hidden;
+}
